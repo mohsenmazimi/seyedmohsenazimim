@@ -1,0 +1,326 @@
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.text_yellow{
+  color: yellow!important;
+}
+* {
+  font-family: "Noto Sans", sans-serif;
+}
+.blueBary {
+  background-color: #483b94 !important;
+}
+.blueBary_color {
+  color: #483b94 !important;
+}
+#main {
+  background-color: #eaeaf0;
+  overflow: hidden;
+  #header {
+    width: 100%;
+    // min-height: 100vh;
+
+    #svg_img {
+      position: relative;
+      > img {
+        position: absolute;
+        top: 17%;
+        left: 20%;
+        width: 60%;
+        border-radius: 20px;
+      }
+    }
+
+    // start mobile menu
+    #mobile_menu {
+      background-color: #c9c9d4;
+      position: fixed;
+      bottom: -105px;
+      left: 0;
+      z-index: 10;
+      span {
+        cursor: pointer;
+      }
+    }
+    // end mobile menu
+  }
+  // start about me
+  #about_figure {
+    position: relative;
+    > img {
+      position: absolute;
+      top: 10%;
+      left: 6%;
+      border-radius: 20px;
+    }
+  }
+  // end about me
+  // start skill counter
+  
+  
+ .parent_skill > div  {
+     
+     >div{
+         .skill_counter{
+            position: relative;
+            div {
+                &:nth-of-type(1) {
+                  width: 100%;
+                  height: 10px;
+                  background-color: #8c7edf6b;
+                  border-radius: 20px;
+                }
+                &:nth-of-type(2){
+                  width: 90%;
+                  height: 10px;
+                  background-color: #5237eb;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  border-radius: 20px;
+                }
+                
+              }
+        }
+        
+        &:nth-of-type(2){
+            div {
+                div {
+                    &:nth-of-type(1) {
+                      width: 106%!important;
+                      height: 10px;
+                      background-color: #8c7edf6b;
+                      border-radius: 20px;
+                    }
+                    &:nth-of-type(2){
+                      width: 80%!important;
+                      height: 10px;
+                      background-color: #5237eb;
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      border-radius: 20px;
+                    }
+                    
+                  }
+                
+              }
+        }
+
+        &:nth-of-type(3){
+            div {
+                div {
+                    &:nth-of-type(1) {
+                      width: 106%!important;
+                      height: 10px;
+                      background-color: #8c7edf6b;
+                      border-radius: 20px;
+                    }
+                    &:nth-of-type(2){
+                      width: 80%!important;
+                      height: 10px;
+                      background-color: #5237eb;
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      border-radius: 20px;
+                    }
+                    
+                  }
+                
+              }
+        }
+
+        &:nth-of-type(4){
+            div {
+                div {
+                    &:nth-of-type(1) {
+                      width: 106%!important;
+                      height: 10px;
+                      background-color: #8c7edf6b;
+                      border-radius: 20px;
+                    }
+                    &:nth-of-type(2){
+                      width: 70%!important;
+                      height: 10px;
+                      background-color: #5237eb;
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      border-radius: 20px;
+                    }
+                    
+                  }
+                
+              }
+        }
+
+        &:nth-of-type(5){
+            div {
+                div {
+                    &:nth-of-type(1) {
+                      width: 106%!important;
+                      height: 10px;
+                      background-color: #8c7edf6b;
+                      border-radius: 20px;
+                    }
+                    &:nth-of-type(2){
+                      width: 90%!important;
+                      height: 10px;
+                      background-color: #5237eb;
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      border-radius: 20px;
+                    }
+                    
+                  }
+                
+              }
+        }
+
+        &:nth-of-type(5){
+            div {
+                div {
+                    &:nth-of-type(1) {
+                      width: 106%!important;
+                      height: 10px;
+                      background-color: #8c7edf6b;
+                      border-radius: 20px;
+                    }
+                    &:nth-of-type(2){
+                      width: 90%!important;
+                      height: 10px;
+                      background-color: #5237eb;
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      border-radius: 20px;
+                    }
+                    
+                  }
+                
+              }
+        }
+        
+    } 
+   
+
+    
+
+  }
+  // end skill counter
+  // start portfolio
+
+  // end portfolio
+  // start box_testimonial
+  .box_testimonial{
+    border-radius: 72% 28% 71% 29% / 35% 70% 30% 65% ;
+    // box-shadow: inset 20px 20px 20px rgba(0,0,0,0.05),
+    //  25px 35px 20px rgba(0,0,0,0.05),
+    //  inset -20px -20px 25px rgba(255,255,255,0.9),
+    // ;
+    box-shadow:inset 25px 28px 77px rgba(0, 0, 0, 0.05), 25px 35px 55px rgba(0, 0, 0, 0.05), inset -45px -31px 95px rgba(255, 255, 255, 0.9);
+    padding:150px 0 ;
+    background-color: #0f62fe!important;
+    margin: 50px 30px !important;
+    }
+
+     figure{
+      border-radius: 100%;
+      
+      img{
+        border-radius: 100%;
+        object-fit: cover;
+        height: 60px;
+      }
+     }
+  }
+  // end box_testimonial
+  // start contact me
+  #contact_me{
+    position: relative;
+    .parent_contact{
+      background-color: #ff0066!important;
+      padding: 100px 0px;
+      border-radius: 28% 72% 44% 56% / 64% 23% 77% 36% ;
+      box-shadow:inset 25px 28px 77px rgba(255, 0, 0, 0.05), 25px 35px 55px rgba(0, 0, 0, 0.05), inset -45px -31px 95px rgba(255, 255, 255, 0.9);
+      
+    }
+    
+  }
+  // end contact me
+
+form{
+  textarea{
+    resize: none;
+    height: 300px;width: 87%!important;
+    
+  }
+  .project_input{
+    width: 86%;
+  }
+}
+.show {
+  bottom: 0px !important;
+}
+.dark {
+  background-color: #191523 !important;
+  * {
+    color: white !important;
+  }
+}
+#logo {
+  background-color: #191523;
+}
+.white {
+  background-color: #eaeaf0 !important;
+  * {
+    color: black !important;
+  }
+}
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: #eaeaf0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 15px -3px;
+}
+.bg_navbar {
+  background-color: #191523 !important;
+}
+.bg_services{
+  // background-color: #3d2081 !important;
+  background-color: #272136 !important;
+
+
+
+}
+.shadow_element {
+  box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, 0.79) !important;
+  -webkit-box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, 0.79);
+  -moz-box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, 0.79);
+}
+.show_skills{
+    cursor: pointer;
+}
+.height_1{
+    height: 500px;  
+    
+
+  }
+  .height_2{
+    height: 200px;
+  }
+  .shadow_protfolio{
+    box-shadow: 0px 10px 100px 37px rgba(0,0,0,0.1);
+  }
+  .shadow_custom{
+    box-shadow: inset 25px 28px 77px rgba(0, 0, 0, 0.05), 25px 35px 55px rgba(0, 0, 0, 0.05), inset -45px -31px 95px rgba(255, 255, 255, 0.9);
+
+    
+  }
